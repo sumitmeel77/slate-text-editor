@@ -1,0 +1,22 @@
+.toolbar{
+    border-radius: 5px;
+background: #FAFBFC;
+    margin:0 0;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    padding: 10px 10px;
+    row-gap: 5px;
+}
+.toolbar-grp>*{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.toolbar-grp{
+    margin:0 10px;
+}
+select{
+    height: 30px;
+    border: none;
+    width: 6.9rem;
+}
